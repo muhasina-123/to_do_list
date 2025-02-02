@@ -1,0 +1,30 @@
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import json
+
+tasks = []
+
+class RequestHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header('Content-type', 'application/json')
+        self.end_headers()
+        self.wfile.write(json.dumps(tasks).encode())
+
+    def do_POST(self):
+        content_length = int(self.headers['Content-Length'])
+        body = self.rfile.read(content_length)
+        task = json.loads(body.decode())
+        tasks.append(task)
+        self.send_response(201)
+        self.send_header('Content-type', 'application/json')
+        self.end_headers()
+        self.wfile.write(json.dumps({'message': 'Task created successfully'}).encode())
+
+def run_server():
+    server_address = ('', 8000)
+    httpd = HTTPServer(server_address, RequestHandler)
+    print('Server running on port 8000...')
+    httpd.serve_forever()
+
+run_server()
+
