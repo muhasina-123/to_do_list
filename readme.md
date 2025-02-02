@@ -2,33 +2,33 @@
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Team3]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Member 1: [Muhashina k m] - [College of engg kallooppara]
+- Member 2: [Anamika.B.Sajeev] - [College of engg kallooppara]
+- Member 3: [Athira Shaji] - [College of engg kallooppara]
 
 ### Hosted Project Link
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[We designed a "To Do List App",for listing basic tasks we need to complete within the time limit]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[In our normal other "To Do List App" doesn't have an option for priority and category based task arrangement]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[we solved it by adding category like work,personal,and shopping for better arrangement and we arranged the tasks in priority like is they are high,medium or low priority based]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- [python]
+- [React]
 - [Libraries used]
-- [Tools used]
+- [VSCode]
 
 For Hardware:
 - [List main components]
@@ -47,13 +47,13 @@ For Software:
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+![C:\Users\MUHASINA\Pictures\Saved Pictures](HTML)
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![C:\Users\MUHASINA\Pictures\Saved Pictures](CSS)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![C:\Users\MUHASINA\Pictures\Saved Pictures](JS)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -91,9 +91,9 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Muhashina k m]: [frontend,backend]
+- [Anamika.B.Sajeev]: [frontend,backend]
+- [Athira Shaji]: [frontend,backend]
 
 ---
 Made with ❤️ at TinkerHub
